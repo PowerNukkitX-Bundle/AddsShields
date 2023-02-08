@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AddsShields">
+    <output-path>$PROJECT_DIR$/out/artifacts/AddsShields</output-path>
+    <root id="archive" name="AddsShields.jar">
+      <element id="module-output" name="CustomShield" />
+    </root>
+  </artifact>
+</component>

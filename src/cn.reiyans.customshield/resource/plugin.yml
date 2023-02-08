@@ -1,0 +1,7 @@
+name: AddsShields
+main: cn.reiyans.customshield.Main
+version: "1.0.2"
+api: ["1.0.9"]
+load: POSTWORLD
+author: Reiyans
+description: More special shields on the PowerNukkitX
