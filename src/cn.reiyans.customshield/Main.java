@@ -120,7 +120,7 @@ public class Main extends PluginBase {
         Map<Character, Item> map = new HashMap<>();
         map.put('o', Item.get(Item.OBSIDIAN));
         map.put('m', material);
-        map.put('a', Item.get(Item.AIR));
+        map.put('a', Item.get(Item.OBSIDIAN));
         return map;
     }
 
