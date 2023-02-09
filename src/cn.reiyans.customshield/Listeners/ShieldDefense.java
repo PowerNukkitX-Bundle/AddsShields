@@ -28,7 +28,7 @@ public class ShieldDefense implements Listener {
     public void ShieldCheck1(EntityDamageByEntityEvent event) {
         Entity hitPlayer1 = event.getEntity();
         Entity attacker = event.getDamager();
-        if (hitPlayer1 instanceof EntityHuman) {
+        if (hitPlayer1 instanceof Player) {
             Player hitPlayer = (Player) event.getEntity();
             if (hitPlayer.isSneaking() && ShieldsList.contains(hitPlayer.getOffhandInventory().getItem(0).getNamespaceId())) {
                 String shieldName = hitPlayer.getOffhandInventory().getItem(0).getNamespaceId();
