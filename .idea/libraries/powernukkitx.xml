@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="powernukkitx">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Studio/PNX-CLI/PNX-CLI/powernukkitx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Studio/kylinspace/PNX-CLI/powernukkitx.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

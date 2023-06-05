@@ -18,6 +18,12 @@ public class AmethystShield extends ShieldBase implements CustomItem {
     public String getNamespaceId() {//物品标识符
         return "amethyst:shield";
     }
+
+    @Override
+    public int getMaxDurability() {
+        return DURABILITY_SHIELD;
+    }
+
     @Override
     public String getTextureName() { return "amethyst";}
 }

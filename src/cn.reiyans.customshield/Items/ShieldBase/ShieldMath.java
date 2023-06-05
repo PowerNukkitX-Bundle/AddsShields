@@ -52,4 +52,9 @@ public class ShieldMath {
             a = a+15;
         }
     }
+    public static void RandomJump(Entity hitplayer,Entity attacker,int direction){//the function is adopt to slimeshield,but i haven't good idea now
+        final double x =  attacker.getX();
+        final double y =  attacker.getY();
+        final double z =  attacker.getZ();
+    }
 }

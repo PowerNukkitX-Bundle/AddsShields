@@ -17,6 +17,7 @@ import cn.nukkit.potion.Effect;
 import cn.reiyans.customshield.Items.ShieldBase.ShieldMath;
 import java.util.Arrays;
 import java.util.List;
+import static cn.nukkit.utils.Utils.random;
 
 public class ShieldDefense implements Listener {
 
